@@ -1,26 +1,62 @@
-#body{
+
+/* Navbar Container */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Space out the elements */
+    align-items: center; /* Center items vertically */
+    padding: 1rem 2rem;
+    color: white;
+  }
+  
+  .navbar-logo img {
+    height: 40px; /* Adjust logo size */
+    padding: 1rem 3rem;
+  }
+  .navbar-links-center {
+    flex: 1; /* Take up available space to center links */
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    
+  }
+  .navbar-links {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-#navbar{
+    gap: 1rem; /* Space between links */
+    padding: 6px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    margin: 30px;
-    border: solid 1px white;
-    border-radius: 30px;
-    padding: 15px 0px;
-
-}
-.nav-item{
+    border-radius: 8px;
+  }
+  
+  .navbar-links a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    border-radius: 30px;
-    padding: 20px 30px;
-    transition: ease-in-out 500ms ;
-}
-.nav-item:hover{
-    color: black;
-    transition: ease-in-out 300ms;
-}
+    padding: 10px 20px;
+    transition: ease-out 600ms;
+  }
+  
+  .navbar-links a:hover {
+    background-color: blueviolet;
+    border-radius: 8px;
+    transition: ease-in 250ms;
+  }
+  
+  .navbar-contact {
+    margin-left: auto; /* Push contact to the right end */
+    
+  }
+  
+  .navbar-contact a {
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: 1px solid white;
+    border-radius: 8px;
+
+  }
+  .navbar-contact a:hover{
+    background-color: blueviolet;
+    border-radius: 8px;
+    transition: ease-in 250ms;
+  }
