@@ -5,30 +5,35 @@
     border: solid 1px white;
     border-radius: 20px;
     width: 600px;
-    height: 350px;
+    height: 250px;
     margin:100px;
+    text-align: center;
     transition: 500ms ease-in;
+    border: 1px solid rgb(50, 98, 255);
 }
 #body:hover{
-    background-color: black;
+    background-color: #0077B5;
     color: white;
     transition: 300ms ease-out;
 }
-span{
-    color: white;
-    margin: 0px;
-    padding: 10px;
-}
+
 h1{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
     margin: 0px 10px;
-    font-size: 50px;
+    font-size: 30px;
+
 }
 h3{
-    font-weight: 10;
+    font-size: 14px;
+    font-weight: light;
     margin: 0px;
     padding: 0px 50px;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

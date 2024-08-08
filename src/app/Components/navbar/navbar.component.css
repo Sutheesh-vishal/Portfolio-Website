@@ -24,12 +24,13 @@
     align-items: center;
     gap: 1rem; /* Space between links */
     padding: 6px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
   }
   
   .navbar-links a {
+    font-size: 14px;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -38,8 +39,8 @@
   }
   
   .navbar-links a:hover {
-    background-color: blueviolet;
-    border-radius: 8px;
+    background-color: black;
+    border-radius: 50px;
     transition: ease-in 250ms;
   }
   
@@ -49,6 +50,7 @@
   }
   
   .navbar-contact a {
+    font-size: 14px;
     color: white;
     text-decoration: none;
     padding: 1rem 3rem;
@@ -58,7 +60,7 @@
 
   }
   .navbar-contact a:hover{
-    background-color: blueviolet;
+    background-color: black;
     border-radius: 8px;
     transition: ease-in 250ms;
   }

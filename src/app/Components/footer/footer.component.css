@@ -1,0 +1,107 @@
+/* footer.component.css */
+.footer {
+    background-color: black; /* Dark background color */
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center items horizontally */
+}
+.footer.phrase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    max-width: 1200px; /* Adjust the maximum width as needed */
+}
+
+.logo {
+    margin-right: auto; /* Pushes logo to the left end */
+    margin: 0px 50px;
+
+}
+
+.logo img {
+    height: 50px; /* Adjust size of the logo as needed */
+}
+
+.phrase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1; /* Allows the phrase to take up available space */
+    padding: 0 20px; /* Space around the text */
+}
+
+.phrase p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column; /* Stack social media icons vertically */
+    align-items: flex-start; /* Align icons to the right */
+    margin-left: 20px; /* Add a small gap between text and social icons */
+    margin: 0px 30px;
+}
+
+.social-links a {
+    font-size: 12px;
+    color: white;
+    margin: 5px 0; /* Space between icons */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.social-links img {
+    height: 24px; /* Adjust size of social media icons as needed */
+    width: auto;
+    margin: 5px 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Specific Backgrounds for Icons */
+.github {
+    background-color: white;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.linkedin {
+    background-color: #0077B5;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.gmail {
+    background-color: black;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-links {
+        align-items: center;
+        margin-left: 0; /* Remove margin on small screens */
+        margin-top: 10px; /* Add space above social icons */
+    }
+}
