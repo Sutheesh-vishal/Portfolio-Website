@@ -1,7 +1,9 @@
+
+
 #body{
-    background:rgba(255, 255, 255, 0.1);
-    color: black;
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(50px);
+    color: white;
     border: solid 1px white;
     border-radius: 20px;
     width: 600px;
@@ -35,5 +37,5 @@ h3{
 #about{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;background-color: black;
 }

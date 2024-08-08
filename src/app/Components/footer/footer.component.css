@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: center; /* Center items horizontally */
+    border-top: 1px solid white;
 }
 .footer.phrase{
     display: flex;
