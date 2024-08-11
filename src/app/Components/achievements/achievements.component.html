@@ -1,1 +1,13 @@
-<!--<p>achievements works!</p>-->
+<section class="achievements">
+    <h1>Achievements</h1>
+    <div *ngFor="let achievement of achievements" class="achievement-card">
+      <div class="icon-container">
+        <img [src]="achievement.icon" alt="{{ achievement.title }} icon" class="achievement-icon">
+      </div>
+      <div class="card-content">
+        <h2>{{ achievement.title }}</h2>
+        <p>{{ achievement.description }}</p>
+      </div>
+    </div>
+  </section>
+  

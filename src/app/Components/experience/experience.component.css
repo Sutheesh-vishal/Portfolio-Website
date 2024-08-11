@@ -5,20 +5,20 @@ body {
     padding: 0;
   }
   
-  .projects {
+  .experience {
     width: 80%;
     max-width: 800px;
     margin: 20px auto;
     text-align: center;
   }
   
-  .projects h1 {
+  .experience h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     color: #333;
   }
   
-  .project-card {
+  .experience-card {
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.2);
@@ -35,7 +35,7 @@ body {
     margin-right: 20px;
   }
   
-  .project-logo {
+  .company-logo {
     width: 80px;
     height: auto;
     border-radius: 50%;
@@ -49,6 +49,11 @@ body {
     font-size: 1.5rem;
     margin: 0;
     color: #333;
+  }
+  
+  .card-content h3 {
+    font-size: 1.2rem;
+    color: #555;
   }
   
   .card-content p {

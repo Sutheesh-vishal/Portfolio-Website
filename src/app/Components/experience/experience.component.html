@@ -1,0 +1,14 @@
+<section class="experience">
+    <h1>Experience Roadmap</h1>
+    <div *ngFor="let experience of experiences" class="experience-card">
+      <div class="logo-container">
+        <img [src]="experience.logo" alt="{{ experience.company }} logo" class="company-logo">
+      </div>
+      <div class="card-content">
+        <h2>{{ experience.company }}</h2>
+        <h3>Project: <strong>{{ experience.project }}</strong></h3>
+        <p>{{ experience.description }}</p>
+      </div>
+    </div>
+  </section>
+  
