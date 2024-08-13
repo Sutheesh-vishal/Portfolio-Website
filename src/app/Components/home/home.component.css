@@ -1,11 +1,61 @@
-
-
-.content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+body {
+    margin: 0;
+    padding: 0;
     color: white;
-    text-align: center;
-    z-index: 1; /* Content on top of video */
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: flex-start; /* Align to the left side */
+    height: 80vh;
+  /* Background color for visibility */
+}
+
+.container {
+    text-align: left;
+    margin-left: 140px; /* Optional: Add some left margin if needed */
+    padding: 45px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.001);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+}
+
+#name {
+    font-size: 3rem; /* Larger text */
+    color: white;
+}
+
+span {
+    color: greenyellow;
+}
+
+#role {
+    font-size: 1.5rem; /* Slightly larger text */
+    color: white;
+    margin: 20px 0; /* Adjust spacing */
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px; /* Space between text and buttons */
+}
+
+.resume,
+.nav-item {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px; /* Adjust padding for better appearance */
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: background-color 250ms ease-in, border-color 250ms ease-in;
+    background:greenyellow
+}
+
+.resume:hover,
+.nav-item:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
 }

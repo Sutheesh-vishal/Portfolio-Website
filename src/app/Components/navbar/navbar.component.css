@@ -11,11 +11,11 @@
   .navbar-logo img {
     height: 33px; /* Adjust logo size */
     padding: 6px 8px;
-    margin-left: 20px;
+    margin-left: 60px;
     cursor: pointer;
-    background: rgba(255, 255, 255, 0.1);
+    /* background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    border: 1px solid white;
+    border: 1px solid white; */
     border-radius: 8px;
   }
   .navbar-links-center {
@@ -50,25 +50,25 @@
     transition: ease-in 250ms;
   }
   
-  .navbar-contact {
+  .navbar-Hireme {
     margin-left: auto; /* Push contact to the right end */
     
   }
-  
-  .navbar-contact a {
+  .navbar-Hireme a {
     font-size: 14px;
-    color: white;
+    color: black;
     text-decoration: none;
-    padding: 1rem 3rem;
+    padding: 14px 20px;
+    margin-right: 50px;
     border: 1px solid white;
     border-radius: 8px;
     transition: ease-out 600ms;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(50px);
-
+    background: greenyellow;
   }
-  .navbar-contact a:hover{
+  .navbar-Hireme a:hover{
     background-color: black;
+    color: white;
     border-radius: 8px;
     transition: ease-in 250ms;
   }
+  
