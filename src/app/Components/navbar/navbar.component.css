@@ -30,8 +30,8 @@
     align-items: center;
     gap: 1rem; /* Space between links */
     padding: 6px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
     border-radius: 50px;
   }
   
